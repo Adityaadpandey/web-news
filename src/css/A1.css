@@ -1,0 +1,28 @@
+h1{
+    /* text-align: center; */
+    color: rgb(94, 94, 94)
+}
+
+.first{
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+    width: 70%;
+}
+img{
+    width: 100%;
+}
+body{
+    background-color: rgb(220, 255, 249);
+}
+
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-family: open sans;
+}
