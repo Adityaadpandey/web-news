@@ -8,7 +8,7 @@ function App() {
     <>
       <Router>
         <Switch>
-          <Route exact path="/Apple_unveils_AirTag">
+          <Route exact path="/1">
             <A1 />
           </Route>
           <Route exact path="/">
