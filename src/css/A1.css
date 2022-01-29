@@ -10,7 +10,14 @@ h1{
     margin: 10px;
     box-shadow: 0px 0px 10px rgb(0, 0, 0);
     width: 70%;
+    margin-top: 10px;
+    
 }
+.first:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 img{
     width: 100%;
 }
@@ -25,4 +32,12 @@ p{
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-family: open sans;
+}
+
+.right_header {
+    display: flex;
+    justify-content: right;
+    margin-right: 0px;
+    margin-left: auto;
+    width: 60%;
 }
