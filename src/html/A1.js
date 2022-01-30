@@ -1,16 +1,15 @@
 import React from "react";
 import "../css/A1.css";
 import apple from "../images/A1.png";
-import Home from "./Home";
+import A1temp from "../templates/A2";
+
 
 const A1 = () => {
   return (
     <>
-    <div className="right_header">
-    <Home />
-    </div>
-    <div className="first">
-      <h1>Apple unveils AirTag safety guide amid stalker fears</h1>
+    <div class="row">
+  <div class="column left first">
+  <h1>Apple unveils AirTag safety guide amid stalker fears</h1>
       <img src={apple} alt="AirTag" />
       <p>
         Apple has released an updated safety guide amid ongoing concerns over
@@ -70,10 +69,13 @@ const A1 = () => {
         Foundation: "If you create an item which is useful for tracking stolen
         items, then you have also created a perfect tool for stalking."
       </p>
-      
-    </div>
-    
-   </>
+  </div>
+  <div class="column right first" >
+  <A1temp />
+  </div>
+</div>
+
+  </>
   );
 };
 

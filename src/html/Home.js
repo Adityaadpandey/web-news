@@ -1,14 +1,18 @@
 import React from "react";
 import A1 from "../templates/A1";
+import A2 from "../templates/A2";
 import "../css/Home.css";
 
 const Home = () => {
   return (
     <>
-      <div className="home">
-        <a href="/1">
+      <div className="row">
+        <div className="home column">
           <A1 />
-        </a>
+        </div>
+        <div className="home column">
+          <A2 />
+        </div>
       </div>
     </>
   );
