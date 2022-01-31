@@ -2,6 +2,7 @@ import React from "react";
 import "../css/A2.css";
 import second from "../images/a2im.jpg";
 import A1temp from "../templates/A1";
+import A3temp from "../templates/A3";
 
 const A2 = () => {
   return (
@@ -74,9 +75,9 @@ const A2 = () => {
         <div class="column right first" >
   <A1temp />
   </div>
-        {/* <div class="column right first" >
-  <A1temp />
-  </div> */}
+        <div class="column right first" >
+  <A3temp /> 
+  </div>
       </div>
     </>
   );

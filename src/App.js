@@ -3,6 +3,8 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import A1 from './html/A1';
 import Home from './html/Home';
 import A2 from './html/A2';
+import A3 from './html/A3';
+import A4 from './html/A4';
 
 function App() {
   return (
@@ -14,6 +16,12 @@ function App() {
           </Route>
           <Route exact path="/2">
             <A2/>
+          </Route>
+          <Route exact path="/3">
+            <A3/>
+          </Route>
+          <Route exact path="/4">
+            <A4/>
           </Route>
           <Route exact path="/">
             <Home />

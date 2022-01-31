@@ -2,6 +2,7 @@ import React from "react";
 import "../css/A1.css";
 import apple from "../images/A1.png";
 import A1temp from "../templates/A2";
+import A3temp from "../templates/A3";
 
 
 const A1 = () => {
@@ -11,10 +12,10 @@ const A1 = () => {
   <div class="column left first">
   <h1>Apple unveils AirTag safety guide amid stalker fears</h1>
       <img src={apple} alt="AirTag" />
-      <p>
+      <p><b>
         Apple has released an updated safety guide amid ongoing concerns over
         the company's AirTag devices.
-      </p>
+      </b></p>
 
       <p>
         The company quietly released the safety portal on Monday. The Personal
@@ -72,6 +73,9 @@ const A1 = () => {
   </div>
   <div class="column right first" >
   <A1temp />
+  </div>
+  <div class="column right first" >
+  <A3temp />
   </div>
 </div>
 

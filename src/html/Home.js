@@ -1,6 +1,8 @@
 import React from "react";
 import A1 from "../templates/A1";
 import A2 from "../templates/A2";
+import A3 from "../templates/A3";
+import A4 from "../templates/A4";
 import "../css/Home.css";
 
 const Home = () => {
@@ -12,6 +14,12 @@ const Home = () => {
         </div>
         <div className="home column">
           <A2 />
+        </div>
+        <div className="home column">
+          <A3/>
+        </div>
+        <div className="home column">
+          <A4/>
         </div>
       </div>
     </>
