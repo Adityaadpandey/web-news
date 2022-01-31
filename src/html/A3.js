@@ -3,6 +3,8 @@ import a3img from "../images/a3im.jpg";
 import "../css/A1.css";
 import A1temp from "../templates/A1";
 import A2temp from "../templates/A2";
+import A5temp from "../templates/A5";
+import A4temp from "../templates/A4";
 
 const A3 = () => {
   return (
@@ -118,6 +120,9 @@ const A3 = () => {
         <div class="column right first">
           <A2temp />
         </div>
+        <div class="column right first">
+          <A5temp />
+          </div>
       </div>
     </>
   );

@@ -3,13 +3,15 @@ import "../css/A1.css";
 import apple from "../images/A1.png";
 import A1temp from "../templates/A2";
 import A3temp from "../templates/A3";
+import A4temp from "../templates/A5";
+import A5temp from "../templates/A3";
 
 
 const A1 = () => {
   return (
     <>
-    <div class="row">
-  <div class="column left first">
+    <div className="row">
+  <div className="column left first">
   <h1>Apple unveils AirTag safety guide amid stalker fears</h1>
       <img src={apple} alt="AirTag" />
       <p><b>
@@ -76,6 +78,12 @@ const A1 = () => {
   </div>
   <div class="column right first" >
   <A3temp />
+  </div>
+  <div class="column right first" >
+  <A4temp />
+  </div>
+  <div class="column right first" >
+  <A5temp />
   </div>
 </div>
 

@@ -3,6 +3,8 @@ import "../css/A2.css";
 import second from "../images/a2im.jpg";
 import A1temp from "../templates/A1";
 import A3temp from "../templates/A3";
+import A4temp from "../templates/A5";
+import A5temp from "../templates/A3";
 
 const A2 = () => {
   return (

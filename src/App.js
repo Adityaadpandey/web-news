@@ -5,6 +5,7 @@ import Home from './html/Home';
 import A2 from './html/A2';
 import A3 from './html/A3';
 import A4 from './html/A4';
+import A5 from './html/A5';
 
 function App() {
   return (
@@ -22,6 +23,9 @@ function App() {
           </Route>
           <Route exact path="/4">
             <A4/>
+          </Route>
+          <Route exact path="/5">
+            <A5/>
           </Route>
           <Route exact path="/">
             <Home />
