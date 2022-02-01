@@ -5,7 +5,7 @@ const A5 = () => {
   return (
     <>
     <div className="last">
-    <a href="/1">
+    <a href="/5">
     <h1>Google slammed over ad-cookie replacement flip-flop</h1>
           <img src={a5im1} alt="AirTag" />
     </a>

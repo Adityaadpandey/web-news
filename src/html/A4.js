@@ -5,8 +5,10 @@ import a4im2 from "../images/a4im2.png";
 import a4im3 from "../images/a4im3.jpg";
 import a4im4 from "../images/a4im4.jpg";
 import a4im5 from "../images/a4im5.jpg";
-import A1temp from "../templates/A2";
+import A1temp from "../templates/A1";
 import A3temp from "../templates/A3";
+import A2temp from "../templates/A2";
+import A5temp from "../templates/A5";
 
 const A4 = () => {
   return (
@@ -193,7 +195,13 @@ const A4 = () => {
   <A1temp />
   </div>
   <div class="column right first" >
+  <A2temp />
+  </div>
+  <div class="column right first" >
   <A3temp />
+  </div>
+  <div class="column right first" >
+  <A5temp />
   </div>
       </div>
     </>

@@ -5,7 +5,7 @@ const A4 = () => {
   return (
     <>
     <div className="last">
-    <a href="/1">
+    <a href="/4">
     <h1>Musk: Robots to be bigger business than Tesla cars</h1>
           <img src={a4img} alt="AirTag" />
     </a>

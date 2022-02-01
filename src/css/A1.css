@@ -37,15 +37,15 @@
 
 h1{
   /* text-align: center; */
-  color: rgb(255, 255, 255)
+  color: rgb(94, 94, 94)
 }
 
 .first{
-  background-color: rgb(128, 128, 128);
+  background-color: rgb(255, 255, 255);
   border-radius: 10px;
   padding: 10px;
   margin: 10px;
-  box-shadow: 1px 1px 10px rgb(255, 0, 0);
+  box-shadow: 0px 0px 10px rgb(0, 0, 0);
   /* width: 90%; */
   margin-top: 10px; 
 }
@@ -63,7 +63,7 @@ p{
   margin-block-end: 1em;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
-  font-family: open sans;
+  font-family: ReithSans,Helvetica,Arial,freesans,sans-serif;
 }
 
 .right_header {
