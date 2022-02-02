@@ -1,7 +1,11 @@
 import React from 'react';
 
 const A6 = () => {
-  return <div></div>;
+  return (
+    <>
+    
+    </>
+  );
 };
 
 export default A6;
