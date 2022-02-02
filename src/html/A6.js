@@ -1,7 +1,11 @@
 import React from "react";
 import "../css/A1.css";
 import a6img from "../images/a6.jpg";
-import a6im2 from "../images/a6im2.png";
+import a6im3 from "../images/a6im3.png";
+import A2temp from "../templates/A2";
+import A3temp from "../templates/A3";
+import A1temp from "../templates/A1";
+import A4temp from "../templates/A4";
 
 const A6 = () => {
   return (
@@ -40,9 +44,32 @@ const A6 = () => {
 <p>In a research paper, Prof Buckley and colleagues argued the currency was "the ultimate example of something that is highly likely to move from 'too small to care' to 'too big to fail' in a very short period of time". </p>
 <p>Regulators and politicians did indeed put Diem under the microscope.</p>
 <p>Facebook's former crypto head and Diem co-creator David Marcus said on Twitter the idea might fare better with a more "acceptable" promoter.</p>
-<img src={a6im2} alt="" />
+<img src={a6im3} alt="" />
+<p>The Financial Times wrote that "regulator hostility put a stop to the Diem experiment".</p>
+
+<p>Facebook's size, the newspaper argued, meant that Diem was a "challenge to the status quo" and it was surprising the firm had not foreseen the problems ahead.</p>
+
+<p>But for Diem's Stuart Levey, the technology it developed addressed many key concerns that have emerged as cryptocurrencies have taken off: "One of our highest priorities in designing the Diem Payment Network was building in controls to protect it against misuse by illicit actors.</p>
+
+<p>"Among these controls was a prohibition on anonymous transactions, which pose both a sanctions and money-laundering risk".</p>
+
+<p>Mr Levey added: "We look forward to seeing the design choices - and the ideals - of Diem thrive."</p>
+
+<p>Stephane Kasriel, head of Novi - Meta's digital wallet project - tweeted that the company "would continue to execute on our existing fintech plans to create economic opportunities and champion greater financial inclusion today, and as we look ahead to the metaverse".</p>
 
         </div>
+        <div class="column right first" >
+  <A1temp />
+  </div>
+  <div class="column right first" >
+  <A3temp />
+  </div>
+  <div class="column right first" >
+  <A2temp />
+  </div>
+  <div class="column right first" >
+  <A4temp />
+  </div>
       </div>
     </>
   );
