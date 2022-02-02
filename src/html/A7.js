@@ -1,6 +1,10 @@
 import React from 'react';
 import '../css/A1.css';
 import a7img from '../images/a7im1.jpg';
+import A2temp from "../templates/A2";
+import A3temp from "../templates/A3";
+import A1temp from "../templates/A1";
+import A4temp from "../templates/A4";
 
 const A7 = () => {
   return (
@@ -38,6 +42,18 @@ const A7 = () => {
 <p>"We remain committed to ensuring the App Store is a safe and trusted marketplace for consumers and a great opportunity for developers."</p>
 
         </div>
+        <div class="column right first" >
+  <A1temp />
+  </div>
+  <div class="column right first" >
+  <A3temp />
+  </div>
+  <div class="column right first" >
+  <A2temp />
+  </div>
+  <div class="column right first" >
+  <A4temp />
+  </div>
       </div>
       </>
   )

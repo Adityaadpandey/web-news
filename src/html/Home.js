@@ -6,6 +6,8 @@ import A4 from "../templates/A4";
 import "../css/Home.css";
 import A5 from '../templates/A5';
 import A6 from '../templates/A6';
+import A7 from '../templates/A7';
+
 const Home = () => {
   return (
     <>
@@ -24,6 +26,9 @@ const Home = () => {
         </div>
         <div className="home column">
           <A3/>
+        </div>
+        <div className="home column">
+          <A7/>
         </div>
         <div className="home column">
           <A4/>
