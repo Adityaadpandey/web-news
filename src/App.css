@@ -27,7 +27,11 @@
 .App-link {
   color: #61dafb;
 }
-
+/* body{
+  width: 1080px;
+  margin: 0 auto; 
+  overflow: hidden;
+} */
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

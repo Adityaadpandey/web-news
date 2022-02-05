@@ -1,6 +1,14 @@
 * {
   box-sizing: border-box;
 }
+/* @media only screen and (max-device-width: 480px) {
+
+
+  body{
+    width: 1080px;
+    margin: 0 auto; 
+    overflow: hidden;
+  }} */
 
 /* Create two unequal columns that floats next to each other */
 .column {
