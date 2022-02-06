@@ -8,12 +8,12 @@ import A5 from '../templates/A5';
 import A6 from '../templates/A6';
 import A7 from '../templates/A7';
 import A9 from "../templates/A9";
-<<<<<<< HEAD
+
 import A10 from "../templates/A10";
-=======
+
 import A11 from "../templates/A11";
 
->>>>>>> 353fad9323098ef2127955fd7b35f5eb78ddf202
+
 const Home = () => {
   return (
     <>
@@ -25,28 +25,28 @@ const Home = () => {
           <A1 />
         </div>
         <div className="home column">
-          <A9/>
+          <A9 />
         </div>
         <div className="home column">
-          <A5/>
+          <A5 />
         </div>
         <div className="home column">
           <A2 />
         </div>
         <div className="home column">
-          <A3/>
+          <A3 />
         </div>
         <div className="home column">
-          <A7/>
+          <A7 />
         </div>
         <div className="home column">
-          <A4/>
+          <A4 />
         </div>
         <div className="home column">
-          <A6/>
+          <A6 />
         </div>
-          <div className="home column">
-          <A10/>
+        <div className="home column">
+          <A10 />
         </div>
       </div>
     </>
