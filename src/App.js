@@ -12,6 +12,8 @@ import A8 from './html/A8';
 import A9 from './html/A9';
 import A10 from './html/A10';
 import A11 from './html/A11';
+import A12 from './html/A12';
+import A13 from './html/A13';
 
 
 function App() {
@@ -53,6 +55,12 @@ function App() {
 
           <Route exact path="/11">
             <A11 />
+          </Route>
+          <Route exact path="/12">
+            <A12/>
+          </Route>
+          <Route exact path="/13">
+            <A13 />
           </Route>
 
           <Route exact path="/">
