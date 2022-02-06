@@ -7,6 +7,7 @@ import "../css/Home.css";
 import A5 from '../templates/A5';
 import A6 from '../templates/A6';
 import A7 from '../templates/A7';
+import A9 from "../templates/A9";
 
 const Home = () => {
   return (
@@ -16,10 +17,10 @@ const Home = () => {
           <A1 />
         </div>
         <div className="home column">
-          <A5/>
+          <A9/>
         </div>
         <div className="home column">
-          <A6/>
+          <A5/>
         </div>
         <div className="home column">
           <A2 />
@@ -32,6 +33,9 @@ const Home = () => {
         </div>
         <div className="home column">
           <A4/>
+        </div>
+        <div className="home column">
+          <A6/>
         </div>
       </div>
     </>
