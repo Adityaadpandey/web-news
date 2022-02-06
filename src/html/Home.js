@@ -33,9 +33,9 @@ const Home = () => {
         <div className="home column">
           <A2 />
         </div>
-        <div className="home column">
+        {/* <div className="home column">
           <A3 />
-        </div>
+        </div> */}
         <div className="home column">
           <A7 />
         </div>
