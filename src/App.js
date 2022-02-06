@@ -10,7 +10,7 @@ import A6 from './html/A6';
 import A7 from './html/A7';
 import A8 from './html/A8';
 import A9 from './html/A9';
-
+import A10 from './html/A10';
 
 function App() {
   return (
@@ -43,6 +43,10 @@ function App() {
           </Route><Route exact path="/9">
             <A9/>
           </Route>
+          <Route exact path="/10">
+            <A10 />
+          </Route>
+
           <Route exact path="/">
             <Home />
           </Route>
