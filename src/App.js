@@ -8,6 +8,8 @@ import A4 from './html/A4';
 import A5 from './html/A5';
 import A6 from './html/A6';
 import A7 from './html/A7';
+import A8 from './html/A8';
+import A9 from './html/A9';
 
 
 function App() {
@@ -35,6 +37,11 @@ function App() {
           </Route>
           <Route exact path="/7">
             <A7/>
+          </Route>
+          <Route exact path="/8">
+            <A8/>
+          </Route><Route exact path="/9">
+            <A9/>
           </Route>
           <Route exact path="/">
             <Home />
