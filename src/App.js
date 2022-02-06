@@ -10,7 +10,12 @@ import A6 from './html/A6';
 import A7 from './html/A7';
 import A8 from './html/A8';
 import A9 from './html/A9';
+<<<<<<< HEAD
 import A10 from './html/A10';
+=======
+import A11 from './html/A11';
+
+>>>>>>> 353fad9323098ef2127955fd7b35f5eb78ddf202
 
 function App() {
   return (
@@ -40,13 +45,20 @@ function App() {
           </Route>
           <Route exact path="/8">
             <A8/>
-          </Route><Route exact path="/9">
+          </Route>
+          <Route exact path="/9">
             <A9/>
           </Route>
+<<<<<<< HEAD
           <Route exact path="/10">
             <A10 />
           </Route>
 
+=======
+          <Route exact path="/11">
+            <A11/>
+          </Route>
+>>>>>>> 353fad9323098ef2127955fd7b35f5eb78ddf202
           <Route exact path="/">
             <Home />
           </Route>

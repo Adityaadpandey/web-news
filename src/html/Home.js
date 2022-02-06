@@ -8,11 +8,19 @@ import A5 from '../templates/A5';
 import A6 from '../templates/A6';
 import A7 from '../templates/A7';
 import A9 from "../templates/A9";
+<<<<<<< HEAD
 import A10 from "../templates/A10";
+=======
+import A11 from "../templates/A11";
+
+>>>>>>> 353fad9323098ef2127955fd7b35f5eb78ddf202
 const Home = () => {
   return (
     <>
       <div className="row">
+        <div className="home column">
+          <A11 />
+        </div>
         <div className="home column">
           <A1 />
         </div>
