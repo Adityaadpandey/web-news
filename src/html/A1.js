@@ -4,7 +4,7 @@ import apple from "../images/A1.png";
 import A1temp from "../templates/A2";
 import A3temp from "../templates/A3";
 import A4temp from "../templates/A5";
-import A5temp from "../templates/A3";
+import A5temp from "../templates/A4";
 
 const A1 = () => {
   return (
