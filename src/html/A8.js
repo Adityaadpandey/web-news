@@ -31,8 +31,8 @@ const A8 = () => {
 
 
                 </div>
-                </div>
-            </>
-            )
+            </div>
+        </>
+    )
 }
-            export default A8;
+export default A8;
