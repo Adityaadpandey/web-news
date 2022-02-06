@@ -10,6 +10,7 @@ import A6 from './html/A6';
 import A7 from './html/A7';
 import A8 from './html/A8';
 import A9 from './html/A9';
+import A11 from './html/A11';
 
 
 function App() {
@@ -40,8 +41,12 @@ function App() {
           </Route>
           <Route exact path="/8">
             <A8/>
-          </Route><Route exact path="/9">
+          </Route>
+          <Route exact path="/9">
             <A9/>
+          </Route>
+          <Route exact path="/11">
+            <A11/>
           </Route>
           <Route exact path="/">
             <Home />

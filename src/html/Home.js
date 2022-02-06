@@ -8,11 +8,15 @@ import A5 from '../templates/A5';
 import A6 from '../templates/A6';
 import A7 from '../templates/A7';
 import A9 from "../templates/A9";
+import A11 from "../templates/A11";
 
 const Home = () => {
   return (
     <>
       <div className="row">
+        <div className="home column">
+          <A11 />
+        </div>
         <div className="home column">
           <A1 />
         </div>
