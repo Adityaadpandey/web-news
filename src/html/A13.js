@@ -1,5 +1,9 @@
 import React from "react";
 import a13im1 from "../images/a13im1.jpg";
+import A1temp from "../templates/A2";
+import A3temp from "../templates/A3";
+import A4temp from "../templates/A5";
+import A5temp from "../templates/A4";
 
 const A13 = () => {
   return (
@@ -99,6 +103,19 @@ const A13 = () => {
             from our services and, in some cases, take court action to enforce
             our policies," a Meta representative said.
           </p>
+              </div>
+              
+        <div class="column right first">
+          <A1temp />
+        </div>
+        <div class="column right first">
+          <A3temp />
+        </div>
+        <div class="column right first">
+          <A4temp />
+        </div>
+        <div class="column right first">
+          <A5temp />
         </div>
       </div>
     </>
