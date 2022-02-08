@@ -15,12 +15,48 @@ import A13 from "../templates/A13";
 import A14 from "../templates/A14";
 import A15 from "../templates/A15";
 import A16 from "../templates/A16";
+import A17 from './templates/A17';
+import A18 from './templates/A18';
+import A19 from './templates/A19';
+import A20 from './templates/A20';
+import A21 from './templates/A21';
+import A22 from './templates/A22';
+import A23 from './templates/A23';
+import A24 from './templates/A24';
+import A25 from './templates/A25';
 
 
 const Home = () => {
   return (
     <>
       <div className="row">
+        <div className="home column">
+          <A25/>
+        </div>
+        <div className="home column">
+          <A24/>
+        </div>
+        <div className="home column">
+          <A23/>
+        </div>
+        <div className="home column">
+          <A22/>
+        </div>
+        <div className="home column">
+          <A21/>
+        </div>
+        <div className="home column">
+          <A20/>
+        </div>
+        <div className="home column">
+          <A19/>
+        </div>
+        <div className="home column">
+          <A18/>
+        </div>
+        <div className="home column">
+          <A17/>
+        </div>
         <div className="home column">
           <A16/>
         </div>
