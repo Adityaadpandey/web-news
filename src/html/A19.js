@@ -24,7 +24,7 @@ const A19 = () => {
 
           <p>Announcing her decision, Ms Dorries said: "Arm has a unique place in the global technology supply chain and we must make sure the implications of this transaction are fully considered."</p>
 
-          <p>"The CMA will now report to me on competition and national security grounds and provide advice on the next steps."
+          <p>"The CMA will now report to me on competition and national security grounds and provide advice on the next steps."</p>
 
           <p>In a letter to both Arm and Nvidia setting out the reasons for the decision, officials provided more detail on the national security concerns.</p>
 
