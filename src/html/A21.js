@@ -41,7 +41,4 @@ const A21 = () =>
             
             </div>
         </>
-  )
-};
-
-export default A21;
+    )

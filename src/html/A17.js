@@ -1,5 +1,9 @@
 import React from "react";
 import a17im1 from "../images/a17im1.jpg";
+import A1temp from "../templates/A10";
+import A3temp from "../templates/A11";
+import A4temp from "../templates/A15";
+import A5temp from "../templates/A16";
 
 const A17 = () => {
   return (
@@ -111,6 +115,18 @@ const A17 = () => {
           <p>As sales of devices soared during the pandemic, manufacturers have seen stocks of semiconductors plunge.
 
 </p>
+        </div>
+        <div class="column right first">
+          <A1temp />
+        </div>
+        <div class="column right first">
+          <A3temp />
+        </div>
+        <div class="column right first">
+          <A4temp />
+        </div>
+        <div class="column right first">
+          <A5temp />
         </div>
       </div>
     </>
