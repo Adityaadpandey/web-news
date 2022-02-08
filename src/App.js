@@ -17,6 +17,15 @@ import A13 from './html/A13';
 import A14 from './html/A14';
 import A15 from './html/A15';
 import A16 from './html/A16';
+import A17 from './html/A17';
+import A18 from './html/A18';
+import A19 from './html/A19';
+import A20 from './html/A20';
+import A21 from './html/A21';
+import A22 from './html/A22';
+import A23 from './html/A23';
+import A24 from './html/A24';
+import A25 from './html/A25';
 
 
 function App() {
@@ -60,7 +69,7 @@ function App() {
             <A11 />
           </Route>
           <Route exact path="/12">
-            <A12/>
+            <A12 />
           </Route>
           <Route exact path="/13">
             <A13 />
@@ -69,12 +78,38 @@ function App() {
             <A14 />
           </Route>
           <Route exact path="/15">
-            <A15/>
+            <A15 />
           </Route>
           <Route exact path="/16">
-            <A16/>
+            <A16 />
           </Route>
-
+          <Route exact path="/17">
+            <A17 />
+          </Route>
+          <Route exact path="/18">
+            <A18 />
+          </Route>
+          <Route exact path="/19">
+            <A19 />
+          </Route>
+          <Route exact path="/20">
+            <A20 />
+          </Route>
+          <Route exact path="/21">
+            <A21 />
+          </Route>
+          <Route exact path="/22">
+            <A22 />
+          </Route>
+          <Route exact path="/23">
+            <A23 />
+          </Route>
+          <Route exact path="/24">
+            <A24 />
+          </Route>
+          <Route exact path="/25">
+            <A25 />
+          </Route>
           <Route exact path="/">
             <Home />
           </Route>
