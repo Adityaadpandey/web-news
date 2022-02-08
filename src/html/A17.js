@@ -10,6 +10,7 @@ const A17 = () => {
             UK chip firm Arm sale by Softbank collapses amid competition fears
           </h1>
           <img src={a17im1} alt="" />
+          
           <p>
             <b>
               Japanese conglomerate SoftBank has called off its planned sale of
@@ -89,7 +90,7 @@ const A17 = () => {
             Mr Segars, who has been at the company for three decades, will stay
             on in an advisory role to help with the transition.
           </p>
-          <p>Arm's chip designs are at the heart of most smartphones and smart devices around the world.
+          <p>Arm's chip designs are at the heart of most smartphones and smart devices around the world.</b>
 
           <p>It licenses its technology to major companies including Apple, Samsung and Qualcomm.</p>
 
