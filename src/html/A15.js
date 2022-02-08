@@ -24,7 +24,7 @@ const A15 = () => {
           </p>
 
           <p>
-            It follows a series of leaks on <p>social media of high-profile
+            It follows a series of leaks on ocial media of high-profile
             people's addresses.
           </p>
 
