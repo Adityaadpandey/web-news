@@ -1,9 +1,9 @@
 import React from 'react';
 import a12im1 from "../images/a12im1.jpg"
-import A1temp from "../templates/A2";
-import A3temp from "../templates/A3";
-import A4temp from "../templates/A5";
-import A5temp from "../templates/A3";
+import A1temp from "../templates/A10";
+import A3temp from "../templates/A11";
+import A4temp from "../templates/A15";
+import A5temp from "../templates/A16";
 
 const A12 = () => {
     return (

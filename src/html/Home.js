@@ -14,12 +14,16 @@ import A11 from "../templates/A11";
 import A13 from "../templates/A13";
 import A14 from "../templates/A14";
 import A15 from "../templates/A15";
+import A16 from "../templates/A16";
 
 
 const Home = () => {
   return (
     <>
       <div className="row">
+        <div className="home column">
+          <A16/>
+        </div>
         <div className="home column">
           <A15 />
         </div>
@@ -51,16 +55,16 @@ const Home = () => {
           <A7 />
         </div>
         <div className="home column">
-          <A13 />
+          <A6 />
         </div>
         <div className="home column">
           <A4 />
         </div>
         <div className="home column">
-          <A6 />
+          <A10 />
         </div>
         <div className="home column">
-          <A10 />
+          <A13 />
         </div>
       </div>
     </>
