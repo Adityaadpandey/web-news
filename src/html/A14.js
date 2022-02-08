@@ -44,8 +44,6 @@ const A14 = () => {
                     <p>Some involved in CTL now also question the arrangement with Loris.</p>
 
                     <p>In a tweet after the article's publication board member Danah Boyd said that on reflection: "I was wrong when I agreed to this relationship." She also wrote a blog post <b><u>setting out in detail her thoughts on the issue.</u></b></p>
-                    <img src={a14im2} alt="" />
-                    <p>CTL has now ended data-sharing. It said in <b>a statement on its website</b> it had "listened closely to our community's concerns".</p>
 
                     <p>CIt said it was making changes and working to increase transparency for users: "We heard your feedback that it should be clear and easy for anyone in crisis to understand what they are consenting to when they reach out for help," it said.</p>
 
