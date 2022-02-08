@@ -30,7 +30,7 @@ const Home = () => {
   return (
     <>
       <div className="row">
-        <div className="home column">
+        {/* <div className="home column">
           <A25/>
         </div>
         <div className="home column">
@@ -41,10 +41,7 @@ const Home = () => {
         </div>
         <div className="home column">
           <A22/>
-        </div>
-        <div className="home column">
-          <A21/>
-        </div>
+        </div> */}
         <div className="home column">
           <A20/>
         </div>
@@ -55,7 +52,7 @@ const Home = () => {
           <A18/>
         </div>
         <div className="home column">
-          <A17/>
+          <A21/>
         </div>
         <div className="home column">
           <A16/>
@@ -65,6 +62,9 @@ const Home = () => {
         </div>
         <div className="home column">
           <A14 />
+        </div>
+        <div className="home column">
+          <A17/>
         </div>
         <div className="home column">
           <A12 />
