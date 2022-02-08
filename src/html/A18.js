@@ -4,6 +4,10 @@ import a18im2 from "../images/a18im2.jpg";
 import a18im3 from "../images/a18im3.jpeg";
 import a18im4 from "../images/a18im4.png";
 import a18im5 from "../images/a18im5.jpg";
+import A1temp from "../templates/A10";
+import A3temp from "../templates/A11";
+import A4temp from "../templates/A15";
+import A5temp from "../templates/A16";
 
 const A18 = () => {
   return (
@@ -215,6 +219,18 @@ const A18 = () => {
           <p>
             "Yet, we still, as indie developers… we're kind of clawing our way."
           </p>
+        </div>
+        <div class="column right first">
+          <A1temp />
+        </div>
+        <div class="column right first">
+          <A3temp />
+        </div>
+        <div class="column right first">
+          <A4temp />
+        </div>
+        <div class="column right first">
+          <A5temp />
         </div>
       </div>
     </>

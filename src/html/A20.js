@@ -1,5 +1,9 @@
 import React from "react";
 import a20im1 from "../images/a20im1.jpg";
+import A1temp from "../templates/A10";
+import A3temp from "../templates/A11";
+import A4temp from "../templates/A15";
+import A5temp from "../templates/A16";
 
 const A20 = () => {
   return (
@@ -67,6 +71,18 @@ const A20 = () => {
             spotlight, given his conservative views, as the company has been
             caught up in political controversies and backlash.
           </p>
+        </div>
+        <div class="column right first">
+          <A1temp />
+        </div>
+        <div class="column right first">
+          <A3temp />
+        </div>
+        <div class="column right first">
+          <A4temp />
+        </div>
+        <div class="column right first">
+          <A5temp />
         </div>
       </div>
     </>

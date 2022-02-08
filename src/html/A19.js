@@ -1,5 +1,9 @@
 import React from "react";
 import a19im1 from "../images/a19im1.jpg"
+import A1temp from "../templates/A10";
+import A3temp from "../templates/A11";
+import A4temp from "../templates/A15";
+import A5temp from "../templates/A16";
 
 const A19 = () => {
   return (
@@ -32,7 +36,18 @@ const A19 = () => {
 
             </p>
         </div>
-
+        <div class="column right first">
+          <A1temp />
+        </div>
+        <div class="column right first">
+          <A3temp />
+        </div>
+        <div class="column right first">
+          <A4temp />
+        </div>
+        <div class="column right first">
+          <A5temp />
+        </div>
       </div>
     </>
   );
