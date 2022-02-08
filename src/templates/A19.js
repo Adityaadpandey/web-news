@@ -4,7 +4,7 @@ import a19im1 from "../images/a19im1.jpg"
 const A19 = () => {
     return (
         <>
-            <a href='/17'>
+            <a href='/19'>
                 <div className="last">
                 <h1>
             Arm-Nvidia deal: UK orders further inquiry
