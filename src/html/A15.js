@@ -1,13 +1,18 @@
 import React from "react";
 import a15im1 from "../images/a15im1.jpg";
-import a15im2 from "../images/a15im2.jpg";
-import a15im3 from "../images/a15im3.jpg";
-import a15im4 from "../images/a15im4.jpg";
+import a15im2 from "../images/a15im2.j
+=======
+import A1temp from "../templates/A2";
+import A3temp from "../templates/A3";
+import A4temp from "../templates/A5";
+import A5temp from "../templates/A4";
+>>>>>>> 2dbaacc3df719410d790b3cb5275b3e7f61ba6f8
 
 const A15 = () => {
   return (
     <>
       <div className="row">
+<<<<<<< HEAD
         <div className="column first left">
           <h1>How to store excess wind power underwater</h1>
           <img src={a15im1} alt="" />
