@@ -1,10 +1,10 @@
 import React from "react";
 
-const A15 = () => {
+const A17 = () => {
   return (
     <>
       <div className="row">
-        <div className="column left first">
+        <div className="column left first ">
           <h1></h1>
         </div>
       </div>
@@ -12,4 +12,4 @@ const A15 = () => {
   );
 };
 
-export default A15;
+export default A17;
