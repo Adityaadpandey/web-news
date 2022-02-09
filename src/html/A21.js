@@ -6,6 +6,11 @@ import a21im4 from "../images/a21im4.jpg"
 import a21im5 from "../images/a21im5.jpg"
 import a21im6 from "../images/a21im6.jpg"
 import a21im7 from "../images/a21im7.jpg"
+import A1temp from "../templates/A10";
+import A3temp from "../templates/A11";
+import A4temp from "../templates/A15";
+import A5temp from "../templates/A16";
+
 
 
 const A21 = () => {
@@ -33,7 +38,18 @@ const A21 = () => {
                     <img src={a21im7} alt="" />
                     <p>The Bose Portable Home Speaker is priced at Rs 31,500 on Amazon. The speaker offers 360 degree music playback. The speaker comes with inbuilt support for Alexa and Google Assistant.</p>
                 </div>
-
+                <div class="column right first">
+                    <A1temp />
+                </div>
+                <div class="column right first">
+                    <A3temp />
+                </div>
+                <div class="column right first">
+                    <A4temp />
+                </div>
+                <div class="column right first">
+                    <A5temp />
+                </div>
             </div>
         </>
     )
