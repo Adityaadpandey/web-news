@@ -1,5 +1,5 @@
 import React from 'react';
-import a22im1 from "../images/a22im1.webp"
+// import a22im1 from "../images/a22im1.webp"
 
 const A22 = () => {
     return (
@@ -9,7 +9,7 @@ const A22 = () => {
                 <h1>
             Safer Internet Day - Acronis shares recommendations to stay safe online
           </h1>
-          <img src={a22im1} alt="" />
+          {/* <img src={a22im1} alt="" /> */}
 
                 </div>
             </a>
