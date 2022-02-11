@@ -1,15 +1,15 @@
 import React from 'react';
-import a17im1 from "../images/a17im1.jpg";
+import a22im1 from "../images/a22im1.webp"
 
 const A22 = () => {
     return (
         <>
             <a href='/22'>
                 <div className="last">
-                    <h1>
-                        UK chip firm Arm sale by Softbank collapses amid competition fears
-                    </h1>
-                    <img src={a17im1} alt="" />
+                <h1>
+            Safer Internet Day - Acronis shares recommendations to stay safe online
+          </h1>
+          <img src={a22im1} alt="" />
 
                 </div>
             </a>
